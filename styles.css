@@ -88,7 +88,7 @@ header {
     /* left: 60em;  */
     bottom: 270px;  
     max-width: 100%;
-    height: auto; 
+    height: 200px; 
     /* height: 200px;  */
 } 
 
@@ -113,7 +113,7 @@ header {
 .request-info-btn {   
     padding: 10px;  
     margin-left: 5em; 
-    border-radius: 10%;
+    border-radius: 10%; 
 } 
 
 /* .subtext { 
@@ -137,9 +137,10 @@ header {
 } 
 
 .call-to-action { 
-    background-color: #3882f6; 
+    background-color: #3d5e8b; 
     padding: 20px; 
     margin: 30px;  
+    
 }
 
 .sign-up-btn { 
@@ -149,8 +150,13 @@ header {
     border-radius: 10%;
 } 
 
+.call-to-action-header { 
+    color: white
+}
+
 .call-to-action-p { 
-    text-align: left;
+    text-align: left; 
+    color: white; 
     position:relative; 
     bottom: 55px; 
 } 
@@ -164,24 +170,30 @@ header {
     height: 50px; 
 } 
 
-.picture-title { 
-    text-align: center;
-}
+/* .picture-title { 
+    text-align:;
+} */
 
 .flex-container { 
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    /* align-items: center; */
     gap: 10em; 
-    margin-bottom: 8em;
+    margin-bottom: 8em; 
+    margin-left: 11em; 
 } 
-
 .text { 
-    list-style: none;
-} 
+    list-style: none; 
+    margin: 5px; 
+}
 
-.text-2 { 
-    list
+.approval-header { 
+    position:relative; 
+    left: 3em; 
+
+
+li { 
+    margin: 5px; 
 }
 
 
