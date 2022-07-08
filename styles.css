@@ -116,11 +116,11 @@ header {
     border-radius: 10%;
 } 
 
-.subtext { 
+/* .subtext { 
     display: flex; 
     list-style: none;
     justify-content: space-around;
-} 
+}  */
 
 .quote { 
     background-color: #E5E7EB;
@@ -159,9 +159,24 @@ header {
     height: 50px; 
 } 
 
-/* .img1 { 
-display: flex;
-flex-direction: row; 
-align-items: ;
-} */ 
+.flex-container { 
+    display: flex;
+} 
 
+.text-container { 
+    display: inline-block; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: stretch;  
+    margin-top: 50px; 
+    margin-right: 0em; 
+    list-style: none; 
+    /* text-align: center; */
+    
+} 
+
+.img-container { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
