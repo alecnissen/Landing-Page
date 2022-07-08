@@ -143,11 +143,10 @@ header {
 }
 
 .sign-up-btn { 
-    /* background-color: #3882f6; */
     text-align: right; 
     position: relative; 
     right: 10em; 
-    
+    border-radius: 10%;
 } 
 
 .call-to-action-p { 
@@ -165,7 +164,28 @@ header {
     height: 50px; 
 } 
 
-.flex-container, .text-container { 
+.picture-title { 
+    text-align: center;
+}
+
+.flex-container { 
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 10em; 
+    margin-bottom: 8em;
+} 
+
+.text { 
+    list-style: none;
+} 
+
+.text-2 { 
+    list
+}
+
+
+/* .flex-container, .text-container { 
     display: flex; 
     flex-direction: row; 
     align-items: flex-end; 
@@ -175,7 +195,7 @@ header {
 
 .text-container.text { 
     display: block; 
-}
+} */
 
 
 /* .text-container { 
