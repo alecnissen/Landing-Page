@@ -124,6 +124,10 @@ header {
 
 .quote { 
     background-color: #E5E7EB;
+    padding: 120px; 
+    font-size: 36px; 
+    color: #1F2937; 
+    font-style: italic;
 } 
 
 .quote-author { 
@@ -134,14 +138,16 @@ header {
 
 .call-to-action { 
     background-color: #3882f6; 
+    padding: 20px; 
+    margin: 30px;  
 }
 
 .sign-up-btn { 
-    border-style: none;
-    color: red;
+    /* background-color: #3882f6; */
     text-align: right; 
     position: relative; 
     right: 10em; 
+    
 } 
 
 .call-to-action-p { 
@@ -159,11 +165,20 @@ header {
     height: 50px; 
 } 
 
-.flex-container { 
-    display: flex;
+.flex-container, .text-container { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-end; 
+    justify-content: flex-end;  
+    margin-bottom: 70px; 
 } 
 
-.text-container { 
+.text-container.text { 
+    display: block; 
+}
+
+
+/* .text-container { 
     display: inline-block; 
     flex-direction: row; 
     justify-content: center; 
@@ -171,12 +186,14 @@ header {
     margin-top: 50px; 
     margin-right: 0em; 
     list-style: none; 
-    /* text-align: center; */
-    
-} 
+    text-align: center;
+}  */
 
-.img-container { 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center;
-}
+ /* .flex-container, .img-container { 
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    
+
+    
+} */
