@@ -38,7 +38,7 @@ header {
     font-size: 40px; 
     text-align: left; 
     color: #F9FAF8; 
-    font-family: sans-serif;
+    font-family: sans-serif; 
 }
 
 
@@ -67,9 +67,9 @@ header {
     gap: 20px;  
     text-decoration-line: underline;
     text-decoration-style: double; 
-    font-size: 28px; 
+    font-size: 20px; 
    color: white; 
-   font-style: italic; 
+   font-style: normal;  
    font-family:Arial, Helvetica, sans-serif; 
 } 
 
@@ -167,7 +167,7 @@ header {
     align-items: center;
     text-align: left; 
     color: white;  
-    font-size: 24px; 
+    font-size: 20px; 
     font-family: sans-serif; 
     padding: 5px; 
 }  
